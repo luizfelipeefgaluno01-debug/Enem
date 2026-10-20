@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Metadados, título e arquivos compartilhados do site. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Organize revisões espaçadas e registre dúvidas sobre seus estudos.">
+  <title>Central de revisão | Rumo ao ENEM</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <!-- Atalho de acessibilidade para pular a navegação. -->
+  <a href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <!-- Cabeçalho global com a navegação entre as páginas. -->
+  <header class="site-header"><a class="site-logo" href="../index.html">Rumo ao ENEM</a><nav class="main-navigation" aria-label="Navegação principal"><ul>
+    <li><a href="../index.html">Início</a></li><li><a href="dashboard.html">Painel</a></li><li><a href="materias.html">Matérias</a></li><li><a href="conteudos.html">Conteúdos</a></li><li><a href="cronograma.html">Cronograma</a></li><li><a href="revisao.html" aria-current="page">Revisão</a></li><li><a href="simulados.html">Simulados</a></li><li><a href="redacao.html">Redação</a></li><li><a href="repertorio.html">Repertório</a></li><li><a href="desempenho.html">Desempenho</a></li><li><a href="motivacao.html">Motivação</a></li><li><a href="perfil.html">Perfil</a></li>
+  </ul></nav></header>
+  <!-- Materiais para revisão espaçada, questões rápidas e anotações locais. -->
+  <main id="conteudo-principal">
+    <header class="page-heading"><h1>Central de revisão</h1><p>Retomar um assunto depois de estudá-lo pode ajudar a perceber o que já está claro e o que ainda merece atenção.</p></header>
+    <!-- Sugestão de intervalos para retomar os assuntos estudados. -->
+    <section aria-labelledby="spacing-title"><h2 id="spacing-title">Experimente espaçar suas revisões</h2><p>Uma sugestão demonstrativa é revisar um tópico após 1 dia, 7 dias e 30 dias. Ajuste esses intervalos conforme sua rotina e a dificuldade do conteúdo.</p><ol><li><strong>Após 1 dia:</strong> relembre as ideias principais sem consultar o material.</li><li><strong>Após 7 dias:</strong> explique o assunto e tente uma questão.</li><li><strong>Após 30 dias:</strong> faça uma revisão breve e registre dúvidas que persistem.</li></ol></section>
+    <!-- Tópicos marcáveis, com estado salvo localmente. -->
+    <section aria-labelledby="today-title"><h2 id="today-title">Revisão do dia</h2><ul>
+      <li><input type="checkbox" id="review-language"><label for="review-language">Linguagens: inferência e tema central — <a href="conteudos.html#linguagens">ver conteúdo</a></label></li>
+      <li><input type="checkbox" id="review-math"><label for="review-math">Matemática: porcentagem — <a href="conteudos.html#matematica">ver conteúdo</a></label></li>
+      <li><input type="checkbox" id="review-bio"><label for="review-bio">Natureza: relações ecológicas — <a href="conteudos.html#natureza">ver conteúdo</a></label></li>
+    </ul><p>As marcações e anotações ficam salvas localmente neste navegador.</p></section>
+    <!-- Questões de demonstração com respostas expansíveis. -->
+    <section aria-labelledby="quick-questions"><h2 id="quick-questions">Questões rápidas de exemplo</h2><article><h3>Matemática</h3><p>Um produto custa R$ 80 e recebe desconto de 25%. Qual é o valor do desconto?</p><details><summary>Ver uma resposta possível</summary><p>25% de 80 corresponde a R$ 20. O preço com desconto seria R$ 60.</p></details></article><article><h3>Linguagens</h3><p>Ao ler um anúncio, que elementos podem ajudar a identificar o público e a intenção da mensagem?</p><details><summary>Ver pistas para refletir</summary><p>Observe o vocabulário, as imagens, o contexto de circulação, o formato e o convite ou argumento apresentado.</p></details></article></section>
+    <!-- Anotações guardadas localmente no navegador. -->
+    <section aria-labelledby="notes-title"><h2 id="notes-title">Minhas anotações</h2><div class="form-group"><label for="review-notes">Registre dúvidas, conceitos ou próximos passos</label><textarea id="review-notes" name="review-notes" rows="7" placeholder="Suas anotações são salvas localmente neste navegador."></textarea></div></section>
+    <p><a href="conteudos.html">Voltar à biblioteca de conteúdos</a> · <a href="simulados.html">Praticar com simulados</a></p>
+  </main>
+  <!-- Rodapé da página. -->
+  <footer class="site-footer"><p>Rumo ao ENEM — revisão demonstrativa.</p><p>Desenvolvido por Luiz Felipe Lima e Arthur da Silva Rocha · Escola do Futuro Paulo Renato de Souza.</p><a href="../index.html">Voltar ao início</a></footer>
+</body>
+</html>

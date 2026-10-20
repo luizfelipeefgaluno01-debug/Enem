@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Metadados, título e arquivos compartilhados do site. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estrutura demonstrativa para organizar objetivos e preferências de estudo.">
+  <title>Meu perfil | Rumo ao ENEM</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <!-- Atalho de acessibilidade para pular a navegação. -->
+  <a href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <!-- Cabeçalho global com a navegação entre as páginas. -->
+  <header class="site-header"><a class="site-logo" href="../index.html">Rumo ao ENEM</a><nav class="main-navigation" aria-label="Navegação principal"><ul>
+    <li><a href="../index.html">Início</a></li><li><a href="dashboard.html">Painel</a></li><li><a href="materias.html">Matérias</a></li><li><a href="conteudos.html">Conteúdos</a></li><li><a href="cronograma.html">Cronograma</a></li><li><a href="revisao.html">Revisão</a></li><li><a href="simulados.html">Simulados</a></li><li><a href="redacao.html">Redação</a></li><li><a href="repertorio.html">Repertório</a></li><li><a href="desempenho.html">Desempenho</a></li><li><a href="motivacao.html">Motivação</a></li><li><a href="perfil.html" aria-current="page">Perfil</a></li>
+  </ul></nav></header>
+  <!-- Formulário do perfil e preferências salvos localmente. -->
+  <main id="conteudo-principal">
+    <header class="page-heading"><h1>Meu perfil de estudos</h1><p>Use esta estrutura para refletir sobre seus objetivos. As informações ficam salvas localmente no navegador utilizado, sem sincronização com outros dispositivos.</p></header>
+    <!-- Campos pessoais opcionais, objetivos e preferências de estudo. -->
+    <form>
+      <fieldset><legend>Informações pessoais e objetivos</legend>
+        <div class="form-group"><label for="student-name">Nome</label><input type="text" id="student-name" name="student-name" autocomplete="name" placeholder="Como você gostaria de ser chamado?"></div>
+        <div class="form-group"><label for="interest-area">Curso ou área de interesse</label><input type="text" id="interest-area" name="interest-area" placeholder="Ex.: Ciências Biológicas"></div>
+        <div class="form-group"><label for="desired-institution">Instituição desejada</label><input type="text" id="desired-institution" name="desired-institution" placeholder="Opcional"></div>
+        <div class="form-group"><label for="study-goal">Meta diária de estudo</label><input type="text" id="study-goal" name="study-goal" placeholder="Ex.: revisar um assunto"></div>
+        <div class="form-group"><label for="exam-date">Data do ENEM, quando conhecida</label><input type="date" id="exam-date" name="exam-date"></div>
+      </fieldset>
+      <fieldset><legend>Preferências de estudo</legend>
+        <p>Marque as opções que combinam com você. As escolhas ficam salvas localmente junto ao seu perfil.</p>
+        <div><input type="checkbox" id="pref-reading" name="preferences" value="reading"><label for="pref-reading">Leitura e resumos</label></div>
+        <div><input type="checkbox" id="pref-questions" name="preferences" value="questions"><label for="pref-questions">Questões práticas</label></div>
+        <div><input type="checkbox" id="pref-videos" name="preferences" value="videos"><label for="pref-videos">Aulas em vídeo</label></div>
+        <div><input type="checkbox" id="pref-groups" name="preferences" value="groups"><label for="pref-groups">Estudo em grupo</label></div>
+      </fieldset>
+      <button type="button">Salvar informações</button>
+    </form>
+    <!-- Atalhos para transformar as metas em um plano de estudos. -->
+    <section aria-labelledby="personal-goals"><h2 id="personal-goals">Resumo das minhas metas</h2><p>Ao preencher os campos, você pode usar suas respostas como referência enquanto planeja seus próximos passos. Esta página não atualiza um resumo automaticamente.</p><a href="cronograma.html">Montar um cronograma demonstrativo</a> · <a href="dashboard.html">Voltar ao painel</a></section>
+  </main>
+  <!-- Rodapé da página. -->
+  <footer class="site-footer"><p>Rumo ao ENEM — perfil estrutural, sem armazenamento de dados.</p><p>Desenvolvido por Luiz Felipe Lima e Arthur da Silva Rocha · Escola do Futuro Paulo Renato de Souza.</p><a href="../index.html">Voltar ao início</a></footer>
+</body>
+</html>
