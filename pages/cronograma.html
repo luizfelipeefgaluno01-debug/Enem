@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Metadados, título e arquivos compartilhados do site. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Exemplo de cronograma equilibrado de estudos para o ENEM.">
+  <title>Cronograma de estudos | Rumo ao ENEM</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <!-- Atalho de acessibilidade para pular a navegação. -->
+  <a href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <!-- Cabeçalho global com a navegação entre as páginas. -->
+  <header class="site-header"><a class="site-logo" href="../index.html">Rumo ao ENEM</a><nav class="main-navigation" aria-label="Navegação principal"><ul>
+    <li><a href="../index.html">Início</a></li><li><a href="dashboard.html">Painel</a></li><li><a href="materias.html">Matérias</a></li><li><a href="conteudos.html">Conteúdos</a></li><li><a href="cronograma.html" aria-current="page">Cronograma</a></li><li><a href="revisao.html">Revisão</a></li><li><a href="simulados.html">Simulados</a></li><li><a href="redacao.html">Redação</a></li><li><a href="repertorio.html">Repertório</a></li><li><a href="motivacao.html">Motivação</a></li><li><a href="perfil.html">Perfil</a></li>
+  </ul></nav></header>
+  <!-- Planejamento semanal e tarefas que podem ser marcadas. -->
+  <main id="conteudo-principal">
+    <!-- Apresentação e tabela do cronograma semanal sugerido. -->
+    <header class="page-heading"><h1>Cronograma de estudos</h1><p>Uma rotina flexível ajuda a distribuir os assuntos e reservar tempo para descansar. Este exemplo pode ser adaptado à sua realidade.</p></header>
+    <section aria-labelledby="week-plan"><h2 id="week-plan">Exemplo de semana</h2><p>Os horários são sugestões; ajuste-os à sua disponibilidade e faça pausas.</p>
+      <table><caption>Plano semanal demonstrativo</caption><thead><tr><th scope="col">Dia</th><th scope="col">Período sugerido</th><th scope="col">Atividade</th><th scope="col">Pausa ou cuidado</th></tr></thead><tbody>
+        <tr><th scope="row">Segunda-feira</th><td>Manhã</td><td>Matemática: funções e gráficos</td><td>Pausa de 10 minutos</td></tr>
+        <tr><th scope="row">Terça-feira</th><td>Tarde</td><td>Linguagens: interpretação de texto</td><td>Caminhada breve</td></tr>
+        <tr><th scope="row">Quarta-feira</th><td>Manhã</td><td>Natureza: ecologia e ambiente</td><td>Alongamento</td></tr>
+        <tr><th scope="row">Quinta-feira</th><td>Tarde</td><td>Redação: planejar e escrever um parágrafo</td><td>Intervalo longe das telas</td></tr>
+        <tr><th scope="row">Sexta-feira</th><td>Manhã</td><td>Humanas: cidadania e história do Brasil</td><td>Pausa para lanche</td></tr>
+        <tr><th scope="row">Sábado</th><td>Manhã</td><td>Revisão leve ou questões de áreas variadas</td><td>Encerrar sem sobrecarga</td></tr>
+        <tr><th scope="row">Domingo</th><td>Livre</td><td>Descanso ou leitura opcional</td><td>Priorizar bem-estar</td></tr>
+      </tbody></table>
+    </section>
+    <!-- Prioridades para orientar os estudos da semana. -->
+    <section aria-labelledby="priorities-title"><h2 id="priorities-title">Prioridades da semana</h2><ul><li>Retomar dois conteúdos que geraram dúvidas.</li><li>Praticar a leitura atenta de enunciados.</li><li>Escrever e revisar uma introdução de redação.</li></ul></section>
+    <!-- Lista interativa de tarefas, com progresso salvo localmente. -->
+    <section aria-labelledby="tasks-title"><h2 id="tasks-title">Lista de tarefas</h2><ul>
+      <li><input type="checkbox" id="task-math"><label for="task-math">Resolver exercícios de funções</label></li>
+      <li><input type="checkbox" id="task-read"><label for="task-read">Fazer uma leitura interpretativa</label></li>
+      <li><input type="checkbox" id="task-essay"><label for="task-essay">Planejar uma redação</label></li>
+      <li><input type="checkbox" id="task-review"><label for="task-review">Revisar um assunto estudado</label></li>
+    </ul><p>O progresso fica salvo localmente neste navegador.</p></section>
+    <!-- Campo estrutural para definir uma meta diária. -->
+    <section aria-labelledby="daily-goal"><h2 id="daily-goal">Minha meta diária</h2><form><div class="form-group"><label for="daily-goal-input">Uma meta possível para hoje</label><input type="text" id="daily-goal-input" name="daily-goal" placeholder="Ex.: estudar por 30 minutos"></div><button type="button">Meta demonstrativa</button></form></section>
+    <!-- Lembrete de equilíbrio entre estudo e descanso. -->
+    <aside><h2>Pausas também contam</h2><p>Intercale períodos de concentração com pequenos intervalos. Sono, alimentação, lazer e descanso fazem parte de uma preparação saudável.</p></aside>
+    <p><a href="dashboard.html">Voltar ao painel</a></p>
+  </main>
+  <!-- Rodapé da página. -->
+  <footer class="site-footer"><div class="footer-content"><div class="footer-details"><p>Rumo ao ENEM — cronograma demonstrativo.</p><p>Desenvolvido por Luiz Felipe Lima e Arthur da Silva Rocha · Escola do Futuro Paulo Renato de Souza.</p><a href="../index.html">Voltar ao início</a></div><div class="footer-brands" aria-label="Logotipos das instituições"><img class="footer-brand-school" src="../img/logo-escola-do-futuro.png" alt="Logo oficial da Escola do Futuro de Goiás"><img class="footer-brand-cepi" src="../img/logo-cepi-marajo.png" alt="Logo do CEPI Marajó"></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aulas autorais, exemplos resolvidos e exercícios para estudar áreas importantes do ENEM.">
+  <title>Biblioteca de estudos | Rumo ao ENEM</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <a href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <header class="site-header"><a class="site-logo" href="../index.html">Rumo ao ENEM</a><nav class="main-navigation" aria-label="Navegação principal"><ul>
+    <li><a href="../index.html">Início</a></li><li><a href="dashboard.html">Painel</a></li><li><a href="materias.html">Matérias</a></li><li><a href="conteudos.html" aria-current="page">Conteúdos</a></li><li><a href="cronograma.html">Cronograma</a></li><li><a href="revisao.html">Revisão</a></li><li><a href="simulados.html">Simulados</a></li><li><a href="redacao.html">Redação</a></li><li><a href="repertorio.html">Repertório</a></li><li><a href="motivacao.html">Motivação</a></li><li><a href="perfil.html">Perfil</a></li>
+  </ul></nav></header>
+  <main id="conteudo-principal">
+    <header class="page-heading"><p>Biblioteca de estudos</p><h1>Aprenda e revise</h1><p>Aulas autorais com objetivos, explicações e exemplos trabalhados para apoiar seus estudos.</p></header>
+
+    <aside class="study-disclaimer">
+      <h2>Como usar esta biblioteca</h2>
+      <ol>
+        <li>Escolha uma aula e leia os objetivos e conhecimentos prévios.</li>
+        <li>Estude a explicação e refaça o exemplo sem olhar a resolução.</li>
+        <li>Explique o conteúdo com suas palavras e revise os exemplos resolvidos.</li>
+      </ol>
+      <p>Esta trilha é uma seleção inicial de 12 tópicos, não cobre todas as disciplinas nem todo o conteúdo do ENEM. Combine-a com aulas, livros, a matriz de referência e provas anteriores do Inep.</p>
+    </aside>
+
+    <section class="library-tools" aria-labelledby="library-tools-title">
+      <h2 id="library-tools-title">Encontre uma aula</h2>
+      <div class="library-filters">
+        <div class="form-group"><label for="content-search">Buscar por assunto ou disciplina</label><input id="content-search" type="search" placeholder="Ex.: porcentagem, ecologia, História" autocomplete="off"></div>
+        <div class="form-group"><label for="area-filter">Filtrar por área</label><select id="area-filter"><option value="all">Todas as áreas</option><option value="linguagens">Linguagens</option><option value="humanas">Ciências Humanas</option><option value="natureza">Ciências da Natureza</option><option value="matematica">Matemática</option></select></div>
+      </div>
+      <p id="filter-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <nav class="lesson-index" aria-labelledby="lesson-index-title">
+      <h2 id="lesson-index-title">Trilhas de aprendizagem</h2>
+      <div class="study-grid">
+        <section aria-labelledby="index-linguagens"><h3 id="index-linguagens">Linguagens</h3><ul><li><a href="aula.html?tema=lesson-reading">Leitura e interpretação</a></li><li><a href="aula.html?tema=lesson-language">Língua estrangeira</a></li><li><a href="aula.html?tema=lesson-art">Artes e leitura de imagens</a></li></ul></section>
+        <section aria-labelledby="index-humanas"><h3 id="index-humanas">Ciências Humanas</h3><ul><li><a href="aula.html?tema=lesson-history">História do Brasil</a></li><li><a href="aula.html?tema=lesson-geography">Geografia: cidade e território</a></li><li><a href="aula.html?tema=lesson-philosophy">Filosofia: ética e argumentação</a></li></ul></section>
+        <section aria-labelledby="index-natureza"><h3 id="index-natureza">Ciências da Natureza</h3><ul><li><a href="aula.html?tema=lesson-biology">Biologia: ecologia</a></li><li><a href="aula.html?tema=lesson-physics">Física: energia e eletricidade</a></li><li><a href="aula.html?tema=lesson-chemistry">Química: matéria e soluções</a></li></ul></section>
+        <section aria-labelledby="index-matematica"><h3 id="index-matematica">Matemática</h3><ul><li><a href="aula.html?tema=lesson-percent">Porcentagem e proporção</a></li><li><a href="aula.html?tema=lesson-functions">Funções e gráficos</a></li><li><a href="aula.html?tema=lesson-data">Estatística e probabilidade</a></li></ul></section>
+      </div>
+    </nav>
+
+    <section id="linguagens" class="lesson-area" data-area="linguagens" aria-label="Aulas de Linguagens">
+      <article id="lesson-reading" class="study-lesson" data-area="linguagens" data-lesson-id="reading">
+        <header><p class="lesson-subject">Língua Portuguesa</p><h3>Leitura e interpretação de textos</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Identificar tema, finalidade e ponto de vista.</li><li>Distinguir informação explícita de inferência sustentada pelo texto.</li><li>Explicar como conectivos e escolhas de linguagem orientam a leitura.</li></ul>
+        <p><strong>Antes de começar:</strong> leia um texto curto e identifique quem o produziu e para qual público.</p>
+        <h4>Estude</h4><p>O tema é o assunto geral; a tese é a posição defendida em um texto argumentativo; argumentos são razões ou evidências usadas para sustentá-la. A finalidade pode ser informar, convencer, instruir, criticar ou entreter. O gênero (notícia, anúncio, crônica, artigo) e o contexto ajudam a reconhecer essa finalidade.</p>
+        <p>Uma informação explícita aparece diretamente. Inferir é concluir algo que o texto não declara literalmente, usando pistas presentes nele. Conectivos indicam relações: “porém” costuma introduzir contraste; “porque”, explicação ou causa; “portanto”, conclusão. Uma alternativa pode ser verdadeira no mundo e ainda assim não responder ao texto: procure evidência textual.</p>
+        <h4>Exemplo resolvido</h4><p>Leia: “A escola abriu a biblioteca no horário do almoço. Mesmo assim, muitos alunos não a frequentam, pois o único acesso fica no prédio anexo.” “Mesmo assim” marca contraste; “pois” apresenta uma explicação. A inferência sustentada é que ampliar o horário não basta quando há uma barreira de acesso físico.</p>
+      </article>
+      <article id="lesson-language" class="study-lesson" data-area="linguagens" data-lesson-id="language">
+        <header><p class="lesson-subject">Inglês ou Espanhol</p><h3>Estratégias de leitura em língua estrangeira</h3><p>Tempo sugerido: 30 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Localizar a ideia central sem traduzir palavra por palavra.</li><li>Usar título, cognatos e contexto para interpretar vocabulário.</li><li>Reconhecer a intenção comunicativa de um texto curto.</li></ul>
+        <p><strong>Antes de começar:</strong> conheça a ideia de cognato: palavra parecida em duas línguas e com sentido semelhante.</p>
+        <h4>Estude</h4><p>Comece pelo gênero, título, autoria e imagens. Leia o comando da questão para saber o que procurar; depois localize palavras repetidas, nomes, números e conectivos. Faça uma primeira leitura global e uma segunda leitura direcionada. O objetivo é compreender a mensagem, não traduzir cada frase.</p>
+        <p>Confirme cognatos pelo contexto: <em>important</em> e <em>importante</em> são próximos, mas <em>actually</em> em inglês significa “na verdade”; <em>embarazada</em> em espanhol significa “grávida”. Pronomes como <em>it</em>, <em>they</em> e <em>lo</em> retomam elementos mencionados antes. Palavras como <em>but</em> e <em>pero</em> sinalizam contraste.</p>
+        <h4>Exemplo resolvido</h4><p>“Many people use bicycles to travel. However, safe bike lanes are still missing.” A segunda frase contrasta o uso das bicicletas com a falta de infraestrutura segura. <em>However</em> equivale a “no entanto”.</p>
+      </article>
+      <article id="lesson-art" class="study-lesson" data-area="linguagens" data-lesson-id="art">
+        <header><p class="lesson-subject">Artes e linguagem visual</p><h3>Como ler imagens, charges e cartazes</h3><p>Tempo sugerido: 30 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Relacionar elementos visuais à mensagem.</li><li>Perceber ironia, contraste e símbolos sem ignorar o contexto.</li></ul>
+        <p><strong>Antes de começar:</strong> observe uma imagem e descreva primeiro o que vê, sem interpretar.</p>
+        <h4>Estude</h4><p>Separe observação de interpretação. Observe enquadramento, cores, linhas, escala, posição das figuras, luz, texto e o que ficou fora da imagem. Em seguida pergunte como essas escolhas direcionam o olhar. Charge e cartaz combinam signos visuais e verbais; ironia, exagero e contraste podem construir crítica.</p>
+        <p>Contextualizar não significa adivinhar a intenção do autor. Use a fonte, a época, o público e elementos concretos da obra para sustentar a leitura. Uma imagem pode permitir mais de uma interpretação, desde que cada uma tenha evidências.</p>
+        <h4>Exemplo resolvido</h4><p>Em um cartaz de economia de água, uma torneira aparece enorme e seca, enquanto uma pessoa segura um copo minúsculo. O contraste de escala e a torneira seca reforçam visualmente a escassez; o slogan e a fonte ainda devem ser lidos para identificar o apelo completo.</p>
+      </article>
+    </section>
+
+    <section id="humanas" class="lesson-area" data-area="humanas" aria-label="Aulas de Ciências Humanas">
+      <article id="lesson-history" class="study-lesson" data-area="humanas" data-lesson-id="history">
+        <header><p class="lesson-subject">História</p><h3>Escravidão, abolição e cidadania no Brasil</h3><p>Tempo sugerido: 40 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Relacionar escravização, resistência e formação social brasileira.</li><li>Distinguir abolição legal de inclusão social efetiva.</li><li>Interpretar uma fonte histórica considerando seu contexto.</li></ul>
+        <p><strong>Antes de começar:</strong> localize 1888 e 1889 numa linha do tempo.</p>
+        <h4>Estude</h4><p>A colonização portuguesa estruturou a exploração do território e a produção voltada ao mercado externo. A escravização de africanos e indígenas foi enfrentada por resistências diversas, como fugas, quilombos, revoltas, negociações e preservação de práticas culturais. Pessoas escravizadas foram agentes históricos, não apenas mão de obra passiva.</p>
+        <p>A Lei Áurea aboliu juridicamente a escravidão em 1888, mas não criou, por si só, condições amplas de acesso à terra, educação, moradia e trabalho protegido para a população liberta. Para interpretar fontes, identifique autor, data, público, objetivo e quem não aparece no registro. A análise histórica conecta causas, conflitos, mudanças e permanências.</p>
+        <h4>Exemplo resolvido</h4><p>Uma fotografia de trabalhadores negros em uma fazenda após 1888 não prova que a escravidão legal continuou. Ela pode revelar permanências de relações de trabalho e desigualdades. É preciso investigar data, local, legenda e condições registradas.</p>
+      </article>
+      <article id="lesson-geography" class="study-lesson" data-area="humanas" data-lesson-id="geography">
+        <header><p class="lesson-subject">Geografia</p><h3>Urbanização, território e desigualdade</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Explicar fatores que impulsionam a urbanização.</li><li>Relacionar infraestrutura, mobilidade e segregação socioespacial.</li><li>Ler mapas observando escala, legenda e distribuição.</li></ul>
+        <p><strong>Antes de começar:</strong> diferencie cidade, população urbana e rede de transportes.</p>
+        <h4>Estude</h4><p>Urbanização é o crescimento da proporção de pessoas que vivem em cidades e a expansão dos espaços urbanos. Industrialização e concentração de empregos e serviços podem intensificar migrações. Quando moradia, saneamento, transporte e equipamentos públicos não acompanham o crescimento, os custos recaem de modo desigual sobre os moradores.</p>
+        <p>Segregação socioespacial descreve a distribuição desigual de grupos e oportunidades no espaço. Ao analisar um mapa, confira legenda, escala, orientação e período; depois relacione localização, fluxos e acesso a serviços. Um padrão espacial mostra uma distribuição, mas é preciso evidência adicional para explicar suas causas.</p>
+        <h4>Exemplo resolvido</h4><p>Se bairros periféricos têm menos linhas de ônibus e moradores gastam mais tempo para chegar ao trabalho, o dado sugere desigualdade de acesso à mobilidade. Para explicar o fenômeno, investigue também renda, planejamento, localização dos empregos e oferta de serviços.</p>
+      </article>
+      <article id="lesson-philosophy" class="study-lesson" data-area="humanas" data-lesson-id="philosophy">
+        <header><p class="lesson-subject">Filosofia e Sociologia</p><h3>Ética, cidadania e análise de argumentos</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Identificar premissas e conclusão de um argumento.</li><li>Comparar decisões considerando direitos, princípios e consequências.</li><li>Relacionar cidadania formal à participação e ao acesso efetivo a direitos.</li></ul>
+        <p><strong>Antes de começar:</strong> distinga fato verificável de opinião ou julgamento de valor.</p>
+        <h4>Estude</h4><p>Ética examina princípios e justificativas para agir; moral reúne normas e costumes de grupos em determinados contextos. Um argumento apresenta razões (premissas) para sustentar uma conclusão. Avalie se as razões são relevantes, suficientes e compatíveis com a conclusão; também procure pressupostos e contraexemplos.</p>
+        <p>Cidadania envolve direitos civis, políticos e sociais, assim como participação na vida coletiva. Reconhecimento legal não garante acesso igual na prática. Na Sociologia, observe como instituições, relações de poder, renda e pertencimentos sociais afetam oportunidades. Evite explicar uma desigualdade complexa por uma única característica ou confundir correlação com causa.</p>
+        <h4>Exemplo resolvido</h4><p>“Todos devem ter acesso à biblioteca, pois a leitura é um direito; portanto, o município deve oferecer unidades acessíveis.” A primeira parte fornece uma justificativa normativa e a segunda apresenta uma proposta. A conclusão pode ser debatida considerando recursos, localização e alternativas, sem apagar o direito defendido.</p>
+      </article>
+    </section>
+
+    <section id="natureza" class="lesson-area" data-area="natureza" aria-label="Aulas de Ciências da Natureza">
+      <article id="lesson-biology" class="study-lesson" data-area="natureza" data-lesson-id="biology">
+        <header><p class="lesson-subject">Biologia</p><h3>Ecologia, cadeias alimentares e impactos</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Distinguir produtores, consumidores e decompositores.</li><li>Interpretar o sentido das setas numa cadeia alimentar.</li><li>Relacionar alterações ambientais a efeitos numa rede ecológica.</li></ul>
+        <p><strong>Antes de começar:</strong> saiba que plantas produzem matéria orgânica usando energia luminosa.</p>
+        <h4>Estude</h4><p>Ecossistema inclui organismos e fatores físicos que interagem. Produtores formam matéria orgânica; consumidores obtêm matéria e energia alimentando-se; decompositores transformam restos e devolvem nutrientes ao ambiente. Em <em>capim → gafanhoto → sapo</em>, as setas indicam transferência do alimento para quem o consome.</p>
+        <p>A matéria circula em ciclos, como os do carbono e da água. Energia flui pelos níveis tróficos e parte é dissipada como calor a cada transferência. Teias alimentares representam várias cadeias interligadas. Poluição, desmatamento e espécies introduzidas podem alterar populações e relações; os efeitos dependem do ecossistema e não são sempre lineares.</p>
+        <h4>Exemplo resolvido</h4><p>Se uma substância tóxica persistente se acumula nos tecidos e passa pela alimentação, sua concentração pode aumentar em níveis tróficos superiores (biomagnificação). Primeiro confirme que a substância é persistente e que há transferência alimentar; nem todo contaminante se comporta igual.</p>
+      </article>
+      <article id="lesson-physics" class="study-lesson" data-area="natureza" data-lesson-id="physics">
+        <header><p class="lesson-subject">Física</p><h3>Energia, potência e consumo elétrico</h3><p>Tempo sugerido: 40 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Distinguir energia de potência e usar unidades corretamente.</li><li>Calcular consumo elétrico a partir da potência e do tempo.</li><li>Interpretar transformações de energia em aparelhos cotidianos.</li></ul>
+        <p><strong>Antes de começar:</strong> revise multiplicação e conversão entre watts e quilowatts: 1 kW = 1.000 W.</p>
+        <h4>Estude</h4><p>Energia é transferida ou transformada; em um sistema isolado, a quantidade total se conserva. Potência mede a taxa de transferência de energia: <em>P = E ÷ Δt</em>. A unidade SI de energia é joule (J); nas contas residenciais, o consumo costuma ser expresso em quilowatt-hora (kWh), unidade de energia.</p>
+        <p>Para potência constante, <em>E = P · Δt</em>. Converta watts em quilowatts antes de multiplicar por horas para obter kWh. Em circuitos simples, <em>U = R · i</em> descreve resistores ôhmicos; a potência elétrica é <em>P = U · i</em>. Uma lâmpada também transfere energia para o ambiente como calor, não apenas como luz.</p>
+        <h4>Exemplo resolvido</h4><p>Um aparelho de 1.200 W funciona por 30 minutos. Converta: 1.200 W = 1,2 kW e 30 min = 0,5 h. Então <em>E = 1,2 · 0,5 = 0,6 kWh</em>. O custo exige ainda multiplicar pelo preço do kWh e considerar tarifas aplicáveis.</p>
+      </article>
+      <article id="lesson-chemistry" class="study-lesson" data-area="natureza" data-lesson-id="chemistry">
+        <header><p class="lesson-subject">Química</p><h3>Matéria, misturas e concentração</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Distinguir substância e mistura em situações simples.</li><li>Calcular concentração comum com unidades consistentes.</li><li>Reconhecer conservação dos átomos em reações químicas.</li></ul>
+        <p><strong>Antes de começar:</strong> saiba dividir grandezas e converter mililitros em litros.</p>
+        <h4>Estude</h4><p>Substância tem composição química definida; mistura combina substâncias e pode ser homogênea (uma fase visível) ou heterogênea (mais de uma fase). Solução é uma mistura homogênea: soluto é a substância dissolvida e solvente é o meio que dissolve. A aparência uniforme não significa que haja apenas uma substância.</p>
+        <p>Concentração comum é <em>C = m ÷ V</em>, geralmente em g/L, com massa de soluto em gramas e volume final da solução em litros. Diluir adiciona solvente e reduz concentração; idealmente a quantidade de soluto permanece. Em reações químicas, os átomos se reorganizam: equações balanceadas conservam o número de átomos de cada elemento.</p>
+        <h4>Exemplo resolvido</h4><p>Se 12 g de açúcar formam 0,5 L de solução, <em>C = 12 ÷ 0,5 = 24 g/L</em>. Atenção: 0,5 L é o volume final da solução. Se o volume for dado em mL, converta antes de dividir.</p>
+      </article>
+    </section>
+
+    <section id="matematica" class="lesson-area" data-area="matematica" aria-label="Aulas de Matemática">
+      <article id="lesson-percent" class="study-lesson" data-area="matematica" data-lesson-id="percent">
+        <header><p class="lesson-subject">Matemática</p><h3>Porcentagem e proporcionalidade</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Converter porcentagem em fração ou número decimal.</li><li>Resolver variações percentuais sucessivas.</li><li>Identificar quando duas grandezas são proporcionais.</li></ul>
+        <p><strong>Antes de começar:</strong> revise frações, decimais e multiplicação.</p>
+        <h4>Estude</h4><p><em>p%</em> significa <em>p/100</em>; por exemplo, 15% = 0,15. Para calcular a parte, multiplique o total pela taxa. Para aplicar aumento, multiplique por <em>1 + taxa</em>; para desconto, por <em>1 − taxa</em>. Em mudanças sucessivas, cada taxa incide sobre o novo valor, não se somam automaticamente.</p>
+        <p>Grandezas diretamente proporcionais variam na mesma razão; a razão entre valores correspondentes permanece constante. Grandezas inversamente proporcionais têm produto constante em condições fixas. Verifique o contexto antes de assumir proporcionalidade.</p>
+        <h4>Exemplo resolvido</h4><p>Um item de R$ 200 recebe desconto de 10%: <em>200 · 0,90 = R$ 180</em>. Depois aumenta 10%: <em>180 · 1,10 = R$ 198</em>. O resultado não retorna a R$ 200 porque o segundo percentual usa outra base.</p>
+      </article>
+      <article id="lesson-functions" class="study-lesson" data-area="matematica" data-lesson-id="functions">
+        <header><p class="lesson-subject">Matemática</p><h3>Função afim e leitura de gráficos</h3><p>Tempo sugerido: 40 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Modelar uma relação linear como <em>y = ax + b</em>.</li><li>Interpretar taxa de variação e valor inicial.</li><li>Ler eixos, unidades e escalas de um gráfico.</li></ul>
+        <p><strong>Antes de começar:</strong> resolva uma equação simples e leia pares ordenados.</p>
+        <h4>Estude</h4><p>Uma função associa cada entrada permitida a uma única saída. Na função afim <em>y = ax + b</em>, <em>b</em> é o valor inicial (quando x = 0) e <em>a</em> é a variação de y para cada unidade de x. Se <em>a &gt; 0</em>, a função cresce; se <em>a &lt; 0</em>, decresce. O contexto pode limitar o domínio, por exemplo, uma distância não negativa.</p>
+        <p>Antes de comparar gráficos, leia título, unidades, escala e intervalos. Inclinação maior significa maior taxa de variação apenas se as escalas forem comparáveis. Um gráfico descreve uma relação no intervalo mostrado; não autoriza extrapolar indefinidamente sem justificativa.</p>
+        <h4>Exemplo resolvido</h4><p>Uma corrida custa R$ 6 de tarifa fixa e R$ 2 por quilômetro: <em>C(x) = 2x + 6</em>. Para 4 km, <em>C(4) = 2 · 4 + 6 = R$ 14</em>. O 6 é a tarifa inicial e o 2 é o custo por quilômetro.</p>
+      </article>
+      <article id="lesson-data" class="study-lesson" data-area="matematica" data-lesson-id="data">
+        <header><p class="lesson-subject">Matemática</p><h3>Estatística e probabilidade básica</h3><p>Tempo sugerido: 35 minutos</p></header>
+        <h4>Ao final, você deverá conseguir</h4><ul><li>Calcular média e mediana em conjuntos pequenos.</li><li>Interpretar população, unidade e escala de gráficos.</li><li>Calcular probabilidade em casos equiprováveis.</li></ul>
+        <p><strong>Antes de começar:</strong> organize valores em ordem crescente e revise frações.</p>
+        <h4>Estude</h4><p>Média aritmética é a soma dos valores dividida pela quantidade. Mediana é o valor central dos dados ordenados (ou a média dos dois centrais, quando há quantidade par). Valores extremos podem deslocar a média mais do que a mediana. Moda é o valor que mais aparece.</p>
+        <p>Em dados, examine título, fonte, população, período, unidades e escala. Uma porcentagem sem denominador pode induzir a comparação errada. Em casos igualmente prováveis, <em>P(evento) = casos favoráveis ÷ casos possíveis</em>. A probabilidade fica entre 0 e 1; resultados observados numa amostra não garantem o resultado de uma tentativa individual.</p>
+        <h4>Exemplo resolvido</h4><p>Para os valores 2, 4 e 12, a média é <em>(2 + 4 + 12) ÷ 3 = 6</em>; a mediana é 4. O valor 12 puxa a média para cima, por isso as medidas respondem a perguntas diferentes sobre o conjunto.</p>
+      </article>
+    </section>
+
+    <section class="study-next-steps" aria-labelledby="next-steps-title">
+      <h2 id="next-steps-title">Continue seus estudos</h2>
+      <p>Use as aulas como base, depois pratique questões de provas anteriores e registre os assuntos que precisam de reforço.</p>
+      <p><a class="button button-primary" href="simulados.html">Praticar questões</a> <a class="button button-secondary" href="revisao.html">Planejar uma revisão</a> <a href="redacao.html">Estudar redação</a></p>
+    </section>
+    <section class="study-sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Referências e aprofundamento</h2>
+      <p>As aulas e questões desta página são autorais e introdutórias. Consulte as fontes oficiais para confirmar orientações e estudar com materiais completos:</p>
+      <ul>
+        <li><a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank" rel="noopener noreferrer">Inep — informações oficiais sobre o Enem</a></li>
+        <li><a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/outros-documentos" target="_blank" rel="noopener noreferrer">Inep — documentos, matriz de referência e materiais do exame</a></li>
+      </ul>
+      <p>Confira sempre o edital vigente. Questões desta biblioteca não são oficiais e não reproduzem questões de provas anteriores.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-content"><div class="footer-details"><p>Rumo ao ENEM — biblioteca autoral de apoio aos estudos.</p><p>Desenvolvido por Luiz Felipe Lima e Arthur da Silva Rocha · Escola do Futuro Paulo Renato de Souza.</p><a href="../index.html">Voltar ao início</a></div><div class="footer-brands" aria-label="Logotipos das instituições"><img class="footer-brand-school" src="../img/logo-escola-do-futuro.png" alt="Logo oficial da Escola do Futuro de Goiás"><img class="footer-brand-cepi" src="../img/logo-cepi-marajo.png" alt="Logo do CEPI Marajó"></div></div></footer>
+</body>
+</html>
